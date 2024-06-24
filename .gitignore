@@ -1,0 +1,40 @@
+# dir 不需要提交的目录
+/node_modules
+\data
+/.vscode
+\weights
+\saved_weights
+
+
+# file 不需要提交的文件
+config.ini
+__pycache__/
+Books/
+.ipynb_checkpoints/
+PyTorch_d2l/
+
+# log 不需要提交的任意包含后缀名为log的文件
+*.log
+*.pth
+*.ckpt
+*.pyc
+*.rar
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.7z
+*.gz
+*.bz2
+*.xz
+*.lzma
+*.lz4
+
+
+# Package Files 不需要提交的任意包含后缀名为jar的文件
+*.jar
+NLP/Kaggle/NLP_with_Disaster_Tweets/archive/glove.6B.100d.txt
+DiveIn/SSM/mamba
+\CourseProject
+/CourseProject
+.DS_Store
